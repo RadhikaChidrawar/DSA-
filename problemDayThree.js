@@ -14,3 +14,14 @@ for (let i = 0; i < n - 1; i++) {
 }
 
 console.log("Descending Order Array:", arr);
+
+
+// Check if a string has both opening and closing brackets: () [] {}
+function isValidExpression(str) {
+    if (str.includes('{') || str.includes('}') || str.includes("[")|| str.includes("]")|| str.includes("(")|| str.includes(")")) {
+        return false;
+    }
+    return true;
+}
+
+console.log(isValidExpression("(a*b) / [c%a]"));
