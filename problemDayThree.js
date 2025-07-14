@@ -25,3 +25,5 @@ function isValidExpression(str) {
 }
 
 console.log(isValidExpression("(a*b) / [c%a]"));
+
+// Convert Decimal to Binary
